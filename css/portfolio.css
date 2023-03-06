@@ -1,0 +1,25 @@
+main{
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.item-portfolio{
+    display: inline-block;
+    margin: 50px;
+    border: 1px solid #000000;  
+    font-weight: bold;
+}
+
+.item-portfolio a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.item-portfolio img{
+    width: 200px;
+}
+
+.item-portfolio, img{
+    border-radius: 25px;
+}
+
