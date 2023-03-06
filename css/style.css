@@ -42,14 +42,6 @@ header, footer{
     color: white;
 }
 
-section{
-    background-color: #FFFFFF;
-    margin: 50px;
-    padding: 50px;
-    border-radius: 25px;
-    color: #000000;
-}
-
 footer{
     padding: 10px;
 }
