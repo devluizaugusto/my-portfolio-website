@@ -1,6 +1,6 @@
 main{
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #0000FF;
 }
 
 .item-portfolio{
@@ -8,6 +8,7 @@ main{
     margin: 50px;
     border: 1px solid #000000;  
     font-weight: bold;
+    background-color: #FFFFFF;
 }
 
 .item-portfolio a{
