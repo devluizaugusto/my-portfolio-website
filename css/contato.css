@@ -18,6 +18,27 @@ form fieldset input, textarea{
     width: 100%;
 }
 
+.button-submit{
+    color: black;
+    background-color: #D3D3D3;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 10px 5px;
+    line-height: 5px;
+    margin-top: 5px;
+    width: 20%;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.button-submit:hover{
+    scale: (1.1);
+}
+
+.invalid{
+    border: 2px solid red;
+}
+
 @media only screen and (max-width: 750px) {
     .button {
         padding: 25px 0px;
