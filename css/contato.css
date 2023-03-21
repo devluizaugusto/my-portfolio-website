@@ -1,9 +1,22 @@
 form{
     width: 400px; 
-    margin: 100px auto;
     background-color: #FFFFFF;
     padding: 20px;
     border-radius: 15px;
+}
+
+p{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    font-size: 27px;
+
+}
+
+form, p{
+    margin: 100px auto;
 }
 
 form fieldset{
@@ -26,9 +39,10 @@ form fieldset input, textarea{
     padding: 10px 5px;
     line-height: 5px;
     margin-top: 5px;
-    width: 20%;
+    width: 30%;
     cursor: pointer;
     transition: transform .2s;
+    border-radius: 20px;
 }
 
 .button-submit:hover{
@@ -36,7 +50,7 @@ form fieldset input, textarea{
 }
 
 .invalid{
-    border: 2px solid red;
+    background-color: red;
 }
 
 @media only screen and (max-width: 750px) {
